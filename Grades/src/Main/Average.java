@@ -7,7 +7,7 @@ public class Average implements Average_Interface {
 		this.ati = ati;
 	}
 	
-
+//
 		public String ave(String[][] str) {
 		String [][]array = str;
 		double avedatamath = 0;

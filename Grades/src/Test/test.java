@@ -2,6 +2,7 @@ package Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.easymock.EasyMock;
 import org.junit.jupiter.api.Test;
 
 import Main.Average;
@@ -10,6 +11,7 @@ import Main.Max;
 import Main.Read;
 import Main.Read_Interface;
 
+
 class test {
 
 	@Test
@@ -17,7 +19,7 @@ class test {
 		String name = "D:\\test.txt";
 		Read_Interface rei = new Read();
 		String data[][] = rei.reader(name);
-		// ¼ÆËãÆ½¾ùÖµÓë×î´óÖµ
+		// è®¡ç®—å¹³å‡å€¼ä¸æœ€å¤§å€¼
 		Average_Interface wri = new Average();
 		String avenum = wri.ave(data);
 	
@@ -26,5 +28,6 @@ class test {
 		String maxnum = max.max(data);
 		System.out.println(maxnum);
 		}
-
+	
+	
 }

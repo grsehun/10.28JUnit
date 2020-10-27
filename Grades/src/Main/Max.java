@@ -36,3 +36,4 @@ public class Max implements Max_Interface {
 		return"数学最高分为"+tempmath+",语文最高分为"+tempcha+",英语最高分为"+tempeng;
 	}
 }
+//
